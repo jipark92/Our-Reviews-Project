@@ -61,6 +61,12 @@ leftBtn.addEventListener('click', ()=>{
     showPerson(reverse);
 });
 
+randomBtn.addEventListener('click', ()=> {
+    showPerson(randomNumber());
+    console.log(randomNumber())
+})
+
+
 function showPerson(person){
     let whichFriend = friendList[person];
     console.log(whichFriend);
@@ -71,6 +77,10 @@ function showPerson(person){
 }
 
 
+function randomNumber(){
+   return Math.floor(Math.random()*friendList.length);
+}
+console.log(randomNumber());
 
 // leftBtn.addEventListener('click', ()=>{
 //     let friendOne = friendList.map((friend)=>{

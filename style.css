@@ -47,3 +47,7 @@ button {
 button:hover{
     background-color: #10B981;
 }
+
+h1 {
+    text-shadow: 1px 1px 1px yellow;
+}
