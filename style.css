@@ -17,11 +17,11 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height : 25vh;
-    width : 50vw;
+    min-height : 35vh;
+    max-width : 50vw;
     border: 1px solid black;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px gray;
     background-color: #ECFDF5;
     padding: 25px;
 }
@@ -30,6 +30,8 @@ img {
     height: 100px;
     width: 100px;
     background-color: black;
+    border-radius: 20px;
+    border: 5px dotted #CFFAFE;
 }
 
 button {
