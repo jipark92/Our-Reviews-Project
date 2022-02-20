@@ -10,35 +10,30 @@ const job = document.querySelector('.job');
 const text = document.querySelector('.text');
 
 const friendList = [{
-    id: 1,
     name: "Mr. Krabs",
     job: "OWNER OF KRUSTY KRABS",
     img: "https://pbs.twimg.com/profile_images/2422380656/mze2e6z7v74aac1miph6_reasonably_small.gif",
     text: "I LOVE MONEY.I LOVE MONEY.I LOVE MONEY.I LOVE MONEY.I LOVE MONEY.I LOVE MONEY.I LOVE MONEY.I LOVE MONEY.I LOVE MONEY.I LOVE MONEY.I LOVE MONEY."
 },
 {
-    id: 2,
     name: "Patrick Star",
     job: "Nothing",
     img: "https://pbs.twimg.com/profile_images/1474947231102869506/T-g6gyHF_400x400.jpg",
     text: "Spongebob is my best friend forever! Spongebob is my best friend forever! Spongebob is my best friend forever! Spongebob is my best friend forever! Spongebob is my best friend forever! Spongebob is my best friend forever! Spongebob is my best friend forever! "
 },
 {
-    id: 3,
     name: "Spongebob",
     job: "Cashier at Krusty Krabs",
     img: "https://pbs.twimg.com/profile_images/1473428449104699392/GnKARPx-_400x400.jpg",
     text: "I am Patricks best friend. I love to work at Krusty Krabs! I love playing with Squidward!"
 },
 {
-    id: 4,
     name: "Sandy Cheeks",
     job: "Senior Engineer",
     img: "https://pbs.twimg.com/profile_images/1025625697019195393/rdEzNrkB_400x400.jpg",
     text: "I want to change the world! I am going to keep working on my science project to discover everything around the world! I want to develop many useful things the world can use for greater goods!"
 },
 {
-    id: 5,
     name: "SquidWard",
     job: "Musician",
     img: "https://pbs.twimg.com/profile_images/1342724285597581312/oc19Ungm_400x400.jpg",
