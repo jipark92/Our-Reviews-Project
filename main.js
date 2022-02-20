@@ -38,7 +38,19 @@ const friendList = [{
     text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem numquam assumenda, quia placeat modi saepe ex repellendus ipsum ea odio ad fuga voluptate molestias necessitatibus explicabo! Consequuntur amet rerum itaque, debitis inventore sed laboriosam similique accusamus aliquam. Enim, at unde."
 }];
 
-
 leftBtn.addEventListener('click', ()=>{
-    fullName.textContent = friendList.name;
+    let friendOne = friendList.map((friend)=>{
+        if (friend.name === "John 1"){
+            return friend.name;
+        }
+    })
+    console.log(friendOne);
+    fullName.textContent = friendOne.join('');
 })
+
+
+
+
+
+
+ 
