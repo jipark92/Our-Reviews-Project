@@ -19,14 +19,14 @@ const friendList = [{
 {
     id: 2,
     name: "Patrick Star",
-    job: "Sleeping",
+    job: "Nothing",
     img: "https://pbs.twimg.com/profile_images/1474947231102869506/T-g6gyHF_400x400.jpg",
     text: "Spongebob is my best friend forever! Spongebob is my best friend forever! Spongebob is my best friend forever! Spongebob is my best friend forever! Spongebob is my best friend forever! Spongebob is my best friend forever! Spongebob is my best friend forever! "
 },
 {
     id: 3,
     name: "Spongebob",
-    job: "Clowning",
+    job: "Cashier at Krusty Krabs",
     img: "https://pbs.twimg.com/profile_images/1473428449104699392/GnKARPx-_400x400.jpg",
     text: "I am Patricks best friend. I love to work at Krusty Krabs! I love playing with Squidward!"
 },
@@ -35,7 +35,7 @@ const friendList = [{
     name: "Sandy Cheeks",
     job: "Senior Engineer",
     img: "https://pbs.twimg.com/profile_images/1025625697019195393/rdEzNrkB_400x400.jpg",
-    text: "44444Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem numquam assumenda, quia placeat modi saepe ex repellendus ipsum ea odio ad fuga voluptate molestias necessitatibus explicabo! Consequuntur amet rerum itaque, debitis inventore sed laboriosam similique accusamus aliquam. Enim, at unde."
+    text: "I want to change the world! I am going to keep working on my science project to discover everything around the world! I want to develop many useful things the world can use for greater goods!"
 }];
 
 let friends = 0; // 0-3 since there are 4 objects
