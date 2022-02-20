@@ -46,13 +46,18 @@ rightBtn.addEventListener('click', ()=>{
     console.log(friends);
     if (friends >= 4){
         friends = 0;
-    } 
+    }
     showPerson(friends);
 })
 let reverse = 4;
 leftBtn.addEventListener('click', ()=>{
     reverse--;
     console.log(reverse);   
+
+    if (reverse < 0) {
+        reverse = 3;
+    }
+   
     showPerson(reverse);
 });
 
