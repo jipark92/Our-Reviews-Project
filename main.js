@@ -1,7 +1,13 @@
 const info = document.querySelector('.info');
 const leftBtn = document.querySelector('.left-btn');
-const leftBtn = document.querySelector('.right-btn');
+const rightBtn = document.querySelector('.right-btn');
 const randomBtn = document.querySelector('.random-btn');
+
+
+const image = document.querySelector('.img-container');
+const fullName = document.querySelector('.name');
+const job = document.querySelector('.job');
+const text = document.querySelector('.text');
 
 const friendList = [{
     id: 1,
@@ -30,12 +36,9 @@ const friendList = [{
     job: "software devloper",
     img: "https://pbs.twimg.com/profile_images/1435888634612301827/aUqoMcQ-_400x400.jpg",
     text: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem numquam assumenda, quia placeat modi saepe ex repellendus ipsum ea odio ad fuga voluptate molestias necessitatibus explicabo! Consequuntur amet rerum itaque, debitis inventore sed laboriosam similique accusamus aliquam. Enim, at unde."
-}
+}];
 
 
-
-
-
-
-
-]
+leftBtn.addEventListener('click', ()=>{
+    fullName.textContent = friendList.name;
+})
