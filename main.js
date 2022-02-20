@@ -36,6 +36,13 @@ const friendList = [{
     job: "Senior Engineer",
     img: "https://pbs.twimg.com/profile_images/1025625697019195393/rdEzNrkB_400x400.jpg",
     text: "I want to change the world! I am going to keep working on my science project to discover everything around the world! I want to develop many useful things the world can use for greater goods!"
+},
+{
+    id: 5,
+    name: "SquidWard",
+    job: "Musician",
+    img: "https://pbs.twimg.com/profile_images/1342724285597581312/oc19Ungm_400x400.jpg",
+    text: "Im going to kill spongebob!!!!!! ahhh!!!! Why does he troll with me so much! Is he my friend or enemy!? I hate living next to him!!!"
 }];
 
 let friends = 0; // 0-3 since there are 4 objects
@@ -44,18 +51,18 @@ let friends = 0; // 0-3 since there are 4 objects
 rightBtn.addEventListener('click', ()=>{
     friends++;
     console.log(friends);
-    if (friends >= 4){
+    if (friends >= 5){
         friends = 0;
     }
     showPerson(friends);
 })
-let reverse = 4;
+let reverse = 5;
 leftBtn.addEventListener('click', ()=>{
     reverse--;
     console.log(reverse);   
 
     if (reverse < 0) {
-        reverse = 3;
+        reverse = 4;
     }
    
     showPerson(reverse);
