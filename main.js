@@ -11,30 +11,30 @@ const text = document.querySelector('.text');
 
 const friendList = [{
     id: 1,
-    name: "John Doe",
-    job: "Software Developer",
-    img: "https://pbs.twimg.com/profile_images/1280134466762166272/3OQXdBwC_400x400.jpg",
-    text: "11111Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem numquam assumenda, quia placeat modi saepe ex repellendus ipsum ea odio ad fuga voluptate molestias necessitatibus explicabo! Consequuntur amet rerum itaque, debitis inventore sed laboriosam similique accusamus aliquam. Enim, at unde."
+    name: "Mr. Krabs",
+    job: "OWNER OF KRUSTY KRABS",
+    img: "https://pbs.twimg.com/profile_images/2422380656/mze2e6z7v74aac1miph6_reasonably_small.gif",
+    text: "I LOVE MONEY.I LOVE MONEY.I LOVE MONEY.I LOVE MONEY.I LOVE MONEY.I LOVE MONEY.I LOVE MONEY.I LOVE MONEY.I LOVE MONEY.I LOVE MONEY.I LOVE MONEY."
 },
 {
     id: 2,
     name: "Patrick Star",
-    job: "Software Engineer",
-    img: "https://pbs.twimg.com/profile_images/1480879644618510336/2iXc8iDk_400x400.jpg",
-    text: "2222Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem numquam assumenda, quia placeat modi saepe ex repellendus ipsum ea odio ad fuga voluptate molestias necessitatibus explicabo! Consequuntur amet rerum itaque, debitis inventore sed laboriosam similique accusamus aliquam. Enim, at unde."
+    job: "Sleeping",
+    img: "https://pbs.twimg.com/profile_images/1474947231102869506/T-g6gyHF_400x400.jpg",
+    text: "Spongebob is my best friend forever! Spongebob is my best friend forever! Spongebob is my best friend forever! Spongebob is my best friend forever! Spongebob is my best friend forever! Spongebob is my best friend forever! Spongebob is my best friend forever! "
 },
 {
     id: 3,
     name: "Spongebob",
-    job: "Senior Developer",
-    img: "https://pbs.twimg.com/profile_images/1459203645782831117/GURd33BT_400x400.jpg",
-    text: "33333Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem numquam assumenda, quia placeat modi saepe ex repellendus ipsum ea odio ad fuga voluptate molestias necessitatibus explicabo! Consequuntur amet rerum itaque, debitis inventore sed laboriosam similique accusamus aliquam. Enim, at unde."
+    job: "Clowning",
+    img: "https://pbs.twimg.com/profile_images/1473428449104699392/GnKARPx-_400x400.jpg",
+    text: "I am Patricks best friend. I love to work at Krusty Krabs! I love playing with Squidward!"
 },
 {
     id: 4,
-    name: "Sandy Squirrel",
+    name: "Sandy Cheeks",
     job: "Senior Engineer",
-    img: "https://pbs.twimg.com/profile_images/1435888634612301827/aUqoMcQ-_400x400.jpg",
+    img: "https://pbs.twimg.com/profile_images/1025625697019195393/rdEzNrkB_400x400.jpg",
     text: "44444Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem numquam assumenda, quia placeat modi saepe ex repellendus ipsum ea odio ad fuga voluptate molestias necessitatibus explicabo! Consequuntur amet rerum itaque, debitis inventore sed laboriosam similique accusamus aliquam. Enim, at unde."
 }];
 
@@ -44,15 +44,17 @@ let friends = 0; // 0-3 since there are 4 objects
 rightBtn.addEventListener('click', ()=>{
     friends++;
     console.log(friends);
-    if (friends >= 3){
+    if (friends >= 4){
         friends = 0;
     } 
     showPerson(friends);
 })
-
+let reverse = 4;
 leftBtn.addEventListener('click', ()=>{
-
-})
+    reverse--;
+    console.log(reverse);   
+    showPerson(reverse);
+});
 
 function showPerson(person){
     let whichFriend = friendList[person];

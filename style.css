@@ -43,3 +43,7 @@ button {
     padding: 0px 10px 0px 10px;
     border-radius: 5px;
 }
+
+button:hover{
+    background-color: #10B981;
+}
